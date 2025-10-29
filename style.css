@@ -5,3 +5,12 @@
     background-image: url("images/loan.jpg");
     
 }
+@keyframes myanime {
+    100%{
+        opacity:0;
+    }
+    0%{
+        opacity:50%;
+    }
+    
+}
