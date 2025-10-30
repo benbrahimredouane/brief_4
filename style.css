@@ -18,3 +18,17 @@
     }
     
 }
+
+@media (max-width:600px) {
+    
+    .mainp{
+        font-size: 8px;
+    }
+    .inputs{
+        display: flex;
+        flex-direction: column;
+
+    }
+    
+}
+
