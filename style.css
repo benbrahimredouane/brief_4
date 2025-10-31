@@ -1,38 +1,42 @@
-.img-fluid{
+.img-fluid {
     width: 40%;
 }
-.home{
+
+.home {
     background-image: url("images/loan.jpg");
-    background-size: cover; 
-    background-repeat: no-repeat; 
+    background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
-  
-    
+
+
 }
+
 @keyframes myanime {
-    100%{
-        opacity:0;
+    100% {
+        opacity: 0;
     }
-    0%{
-        opacity:50%;
+
+    0% {
+        opacity: 50%;
     }
-    
+
 }
 
 @media (max-width:600px) {
-    
-    .mainp{
+
+    .mainp {
         font-size: 8px;
     }
-    .inputs{
+
+    .inputs {
         display: flex;
         flex-direction: column;
 
     }
-    .result{
+
+    .result {
         display: flex;
         flex-direction: column;
     }
-    
+
 }
-
